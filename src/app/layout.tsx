@@ -1,13 +1,18 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
-import "./globals.css";
+import "../styles/globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "3C: Crypto Currency Converter",
+  title: "Cryptosh",
   description:
-    "Discover our Crypto Currency Converter—an intuitive platform enabling swift conversion of over 100+ cryptocurrencies to 100+ fiat currencies, including USD, INR, and more. Stay informed with real-time exchange rates, making your financial decisions seamless and precise. ",
+    "Intuitive platform enabling swift conversion of over 100+ cryptocurrencies to 100+ fiat currencies, including USD, INR, and more.",
+  icons: {
+    icon: "/favicon.ico",
+    shortcut: "/favicon-16x16.png",
+    apple: "/apple-touch-icon.png",
+  },
 };
 
 export default function RootLayout({
