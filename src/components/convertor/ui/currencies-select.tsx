@@ -51,6 +51,7 @@ const CurrenciesSelect: React.FC<Props> = ({
         <div className="spinner"></div>
       ) : (
         <Select
+          className="text-black"
           options={options}
           value={selectedOption}
           placeholder={placeholder}
