@@ -69,7 +69,7 @@ export default function Layout({ cryptoData, fiatData }: Props) {
 
       <span>In Currency:</span>
       <div className="h-10 w-80 bg-slate-100 p-2 text-center text-slate-900 md:w-96">
-        {converted || "Enter data to see conversion"}
+        {converted || ""}
       </div>
     </div>
   );
