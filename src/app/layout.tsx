@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
-import "../styles/globals.css";
+import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -10,8 +10,6 @@ export const metadata: Metadata = {
     "Intuitive platform enabling swift conversion of over 100+ cryptocurrencies to 100+ fiat currencies, including USD, INR, and more.",
   icons: {
     icon: "/favicon.ico",
-    shortcut: "/favicon-16x16.png",
-    apple: "/apple-touch-icon.png",
   },
 };
 
