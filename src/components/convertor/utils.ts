@@ -14,8 +14,6 @@ export async function convertPrice({
   fiat: string;
 }) {
   try {
-    console.log(amount, crypto, fiat);
-
     const res = await axios.get(PRICE_CONVERSION_URL, {
       headers: {
         "X-CMC_PRO_API_KEY": API_KEY,
